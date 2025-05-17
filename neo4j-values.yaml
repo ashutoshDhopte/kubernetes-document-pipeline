@@ -1,0 +1,18 @@
+
+auth:
+  enabled: true
+  password: project1phase2
+
+neo4j:
+  password: project1phase2
+  name: my-neo4j-release
+  extraPlugins:
+    - graph-data-science
+
+persistence:
+  enabled: true
+  size: 5Gi
+  
+volumes:
+  data:
+    mode: defaultStorageClass
