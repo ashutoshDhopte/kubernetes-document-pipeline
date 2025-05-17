@@ -17,7 +17,7 @@ A fault-tolerant, scalable streaming pipeline that ingests JSON events from Apac
 
 ## 📐 Architecture Diagram
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram](KubernetesDocumentPipeline.png)
 *Figure: End-to-end streaming pipeline*
 
 ---
